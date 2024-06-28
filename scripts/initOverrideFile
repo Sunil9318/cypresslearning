@@ -1,0 +1,19 @@
+#!/usr/bin/env ruby
+
+file_name = '.envs.override.ts'
+file_ops_flags = 'w+'
+error = false
+
+output_text = 'export const overrides = {
+
+};
+'
+
+begin
+  File.open(file_name, file_ops_flags) { |file| file.write(output_text) }
+rescue err
+  puts err
+  error = true
+end
+
+exit error ? 1 : 0

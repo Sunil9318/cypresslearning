@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Clock in general timer" timestamp="2023-12-08T15:20:55" time="80.497" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Clock in (general timer)"/>
+      <property name="capabilities" value="emulator-5554.android.13.jobber_apk"/>
+      <property name="file" value="./test/specs/timesheet.e2e.ts"/>
+    </properties>
+    <testcase classname="emulator-5554.android.13.jobber_apk.Clock_in_(general_timer)" name="Clock in general timer" time="60.178">
+      <system-out><![CDATA[
+COMMAND: POST /session/cf5e30bb-1841-4a3f-b004-7b1c95c9f782/elements - {"using":"accessibility id","value":"Bottom Tab Navigation Bar"}
+COMMAND: POST /session/cf5e30bb-1841-4a3f-b004-7b1c95c9f782/element - {"using":"id","value":"TimesheetTab"}
+RESULT: {"using":"accessibility id","value":"Bottom Tab Navigation Bar"}
+RESULT: {"using":"id","value":"TimesheetTab"}
+COMMAND: POST /session/cf5e30bb-1841-4a3f-b004-7b1c95c9f782/element/00000000-0000-0100-ffff-ffff000000ef/click - {}
+RESULT: {}
+COMMAND: POST /session/cf5e30bb-1841-4a3f-b004-7b1c95c9f782/element - {"using":"id","value":"ATL-clockIn-Button"}
+RESULT: {"using":"id","value":"ATL-clockIn-Button"}
+COMMAND: POST /session/cf5e30bb-1841-4a3f-b004-7b1c95c9f782/element - {"using":"id","value":"ATL-clockIn-Button"}
+RESULT: {"using":"id","value":"ATL-clockIn-Button"}
+COMMAND: POST /session/cf5e30bb-1841-4a3f-b004-7b1c95c9f782/element - {"using":"id","value":"ATL-clockIn-Button"}
+RESULT: {"using":"id","value":"ATL-clockIn-Button"}
+COMMAND: GET /session/cf5e30bb-1841-4a3f-b004-7b1c95c9f782/element/00000000-0000-0100-ffff-ffff000002f4/displayed - {}
+RESULT: {}
+COMMAND: POST /session/cf5e30bb-1841-4a3f-b004-7b1c95c9f782/element/00000000-0000-0100-ffff-ffff000002f4/click - {}
+RESULT: {}
+COMMAND: POST /session/cf5e30bb-1841-4a3f-b004-7b1c95c9f782/element - {"using":"xpath","value":"(*//android.widget.LinearLayout[3]/android.widget.Button[2] )[contains(@text,\"Only this time\")]"}
+RESULT: {"using":"xpath","value":"(*//android.widget.LinearLayout[3]/android.widget.Button[2] )[contains(@text,\"Only this time\")]"}
+COMMAND: GET /session/cf5e30bb-1841-4a3f-b004-7b1c95c9f782/element/00000000-0000-0101-ffff-ffff00000014/displayed - {}
+RESULT: {}
+COMMAND: POST /session/cf5e30bb-1841-4a3f-b004-7b1c95c9f782/element/00000000-0000-0101-ffff-ffff00000014/click - {}
+RESULT: {}
+COMMAND: POST /session/cf5e30bb-1841-4a3f-b004-7b1c95c9f782/element - {"using":"id","value":"ATL-clockOut-Button"}
+RESULT: {"using":"id","value":"ATL-clockOut-Button"}
+COMMAND: POST /session/cf5e30bb-1841-4a3f-b004-7b1c95c9f782/element - {"using":"id","value":"ATL-clockOut-Button"}
+RESULT: {"using":"id","value":"ATL-clockOut-Button"}
+COMMAND: GET /session/cf5e30bb-1841-4a3f-b004-7b1c95c9f782/element/00000000-0000-0100-ffff-ffff000002f4/displayed - {}
+RESULT: {}
+COMMAND: POST /session/cf5e30bb-1841-4a3f-b004-7b1c95c9f782/element/00000000-0000-0100-ffff-ffff000002f4/click - {}
+RESULT: {}
+COMMAND: POST /session/cf5e30bb-1841-4a3f-b004-7b1c95c9f782/element - {"using":"id","value":"ATL-clockIn-Button"}
+RESULT: {"using":"id","value":"ATL-clockIn-Button"}
+COMMAND: POST /session/cf5e30bb-1841-4a3f-b004-7b1c95c9f782/elements - {"using":"id","value":"ATL-clockIn-Button"}
+COMMAND: DELETE /session/cf5e30bb-1841-4a3f-b004-7b1c95c9f782 - {}
+RESULT: {"using":"id","value":"ATL-clockIn-Button"}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
